@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Flip Card</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+	<header class="header">
+    <h1>Yankee Candle</h>
+		<h2>Product Knowledge</h2>
+	</header>
+  <div></div>
+  
+    <div id="here"></div>  
+	<section class="score-panel">
+		<h3>Score Panel</h3>
+		<ul id="star-rating" class="star-rating">
+			<li class="star"><i class="fa fa-star"></i></li>
+			<li class="star"><i class="fa fa-star"></i></li>
+			<li class="star"><i class="fa fa-star"></i></li>
+		</ul>
+		<span class="moves-counter">0</span> Moves
+		<div class="timer-container">
+			<span class="timer"><i class="fa fa-hourglass-start"></i> Timer: 00:00</span>
+		</div>
+		<div class="reset">
+			<button class="btn reset-btn">Reset <i class="fa fa-repeat"></i></button>
+		</div>
+	</section>
+
+	<!-- Modal -->
+	<section class="win-game-modal">
+		<div id="modal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h2>Congratulations!</h2>
+				<p>You have won the game</p>
+		
+				<button class="btn play-again-btn">Play Again?</button>
+			</div>
+		</div>
+	</section>
+
+	<ul class="deck"></ul>
+</div>
+
+
+  <script src="custom.js"></script>
+  </body>
+</html>
+  </body>
+</html>
